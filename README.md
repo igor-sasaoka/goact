@@ -37,6 +37,7 @@ func main() {
     log.Fatal(goact.ListenAndServe("localhost:8080", h))
 }
 ```
+![example using telnet to connect to make a goact request](./images/goact_example.png)
 ## WIP
 
 - Client implementation
